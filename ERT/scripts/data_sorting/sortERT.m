@@ -1,6 +1,6 @@
 
 clc; clear all; close all;
-%% Input data file with UTM coordinats
+%% Input data file with UTM coordinates
 Daten = dlmread('Nah2-utm.txt', '\t');
 
 %% path to save sorted and averaged data
