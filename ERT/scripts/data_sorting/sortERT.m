@@ -1,6 +1,14 @@
+%%%%
+% Converts and filters Syscal output with UTM coordinates to 
+%     - 1D format VES1DINV with averaged apparent resistivities
+%     - 2D format RES2DINV with coordinates projected on a straight line 
+%
+% Johannes Hoppenbrock, october 2019
+%%%%
+
 
 clc; clear all; close all;
-%% Input data file with UTM coordinates
+%% Input data file from Syscal with UTM coordinates
 Daten = dlmread('Nah2-utm.txt', '\t');
 
 %% path to save sorted and averaged data
@@ -371,6 +379,7 @@ end
 
 Mittelwerte2 = transpose(Mittelwerte)
 STD2= transpose(STD);
+
 %% Save averaged apparent resistivites in VES1DINV format
 
 fid2 = fopen(pfad1,'wt+');  
@@ -426,7 +435,7 @@ B = sortrows(mat, 3);
         
 
 fid3 = fopen(pfad2,'wt+'); 
-    fprintf(fid3, '%s\n', 'Irgendein Text');
+    fprintf(fid3, '%s\n', 'Res2DINV File');
     fprintf(fid3, '%.2f\n',5);
     fprintf(fid3, '%u\n',3);
     fprintf(fid3, '%u\n', length(Messpunkt1));
