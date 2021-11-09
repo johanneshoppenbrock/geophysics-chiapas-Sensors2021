@@ -10,3 +10,10 @@ Lakes are integrators of past climate and ecological change. This information is
 | ------------- | ------------- |--|--|
 | ERT  | Electrical resistivity tomography |10/2018| 12 profiles |
 | SBP  | Sub-bottom profiler  |10/2018|18 profiles|
+
+# Funding
+This research has received financial supported from the Consejo Nacional de Ciencia
+y Tecnología (grant no. 252148), Programa de Apoyo a Proyectos de Investigación e Innovación
+Tecnológica (grant no. IA100317) and the Austrian Science Fund (grant no. FWF-I-2619-N29).
+Adrián Flores Orozco acknowledges the support of the Austrian Federal Ministry of Science,
+Research and Economy (in frame of the PotGRAF project) which funded parts of this project.
