@@ -2,6 +2,7 @@
 % Converts and filters Syscal output with UTM coordinates to 
 %     - 1D format VES1DINV with averaged apparent resistivities
 %     - 2D format RES2DINV with coordinates projected on a straight line 
+% Important: Filters and settings must be adjusted for every profile.
 %
 % Johannes Hoppenbrock, october 2019
 %%%%
@@ -19,7 +20,7 @@ pfad2 ='Res2Dinv\Nah2-utm-2D.dat';
 % set first and last used data point 
 Startindex=1;
 Endindex=275;
-% select segment on profile
+% select interval (in meters) on profile
 Messgrenzeunten=100;
 Messgrenzeoben=200;
 % filter for small or high resistivities 
@@ -453,6 +454,3 @@ fprintf(fid3, '%g\t\n', 0);
 fprintf(fid3, '%g\t\n', 0);
 fprintf(fid3, '%g\t\n', 0);
 fclose(fid3); 
-Messgrenzeunten
-Messgrenzeoben
-WasserWiderstand=mean(Wasserwiderstand)
