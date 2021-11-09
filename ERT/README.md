@@ -1,5 +1,5 @@
 # Electrical resistivity tomography (ERT) data
-This subfolder contains the Electrical resistivity tomography data set with UTM coordinates of lake Nahá acquired in March 2018. 
+This subfolder contains the Electrical resistivity tomography data set in UTM coordinates of lake Nahá acquired in March 2018. 
 
 # Scripts
 The directory contains Matlab scripts (.m files) for the data preparation (folder 'data_sorting') for a 1D inversion with VES1Dinv (Ekinci and Demirci (2008)) and a 2D inversion with RES2DINV. 
