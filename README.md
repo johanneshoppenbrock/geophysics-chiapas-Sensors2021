@@ -6,7 +6,7 @@ Lakes are integrators of past climate and ecological change. This information is
 
 # Overview
 
-| First Header  | Second Header |
-| ------------- | ------------- |
-| Content Cell  | Content Cell  |
-| Content Cell  | Content Cell  |
+| Directory | Method |Month/Year of acquisition|Quantity|
+| ------------- | ------------- |--|--|
+| ERT  | Electrical resistivity tomography |10/2018| 12 profiles |
+| SBP  | Sub-bottom profiler  |10/2018|18 profiles|
